@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application' version '8.2.2'
+}
+
+android {
+    namespace 'de.foxifilm.tv'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "de.foxifilm.tv"
+        minSdk 21
+        targetSdk 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
